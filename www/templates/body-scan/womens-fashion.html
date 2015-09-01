@@ -1,0 +1,27 @@
+<ion-view class="enamel-bg">
+
+    <!--<a ng-click="toggleLeftSideMenu()"></a>-->
+
+    <ion-content class="stylebar-content">
+
+        <div class="row">
+            <div class="col col-top text-center">
+                <h1 class="big-number">3</h1>
+                <p class="p-large">FASHION</p>
+            </div>
+        </div>
+
+        <div class="mens-grid">
+            <div class="row" ng-repeat="item in items">
+                <a ng-href="#/app/{{item.id}}" class="col grid" ng-show="{{item.gender == 'female'}} && {{item.category == 'fashion'}}" id="{{item.name}}">
+                    <img ng-src="{{item.image}}" class="img-bg">       
+                    <h3 class="grid-description">{{item.name}}</h3> 
+                    <p class="grid-brand">{{item.company}}</p>
+                    <p class="grid-price">${{item.price}}</p>
+                </a>
+                <a href="#/app/{{item.id}}" class="button button-custom">Customize</a>
+            </div>
+        </div>
+          
+    </ion-content>
+</ion-view>

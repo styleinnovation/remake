@@ -1,0 +1,534 @@
+
+.bar.bar-clear .button {
+	color: rgba(0,0,0,.3);
+}
+
+.scroll {
+	margin-top: 40px;
+}
+
+.darth-bg {
+	background: rgba(0,0,0,1);
+}
+
+.yellow-bg {
+	background: rgba(254,189,3,1);
+}
+
+.poly-bg {
+	background: url('../img/polygonal.png');
+	background-size: cover;
+}
+
+
+.triangle-bg {
+	background: url('../img/deucedeuce.png');
+}
+
+.enamel-bg {
+	background: #eee;
+}
+
+.bar-light#bar-borderless {
+    border-color: rgba(255,255,255,0);
+    border: none;
+}
+
+.welcome-text {
+	font-size: 16px;
+	color: rgba(0,0,0,.6);
+	max-width: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+.ipad-whitespace {
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+
+.ipad-whitespace-small {
+	max-width: 500px;
+}
+
+
+.p-large {
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 100;
+	color: rgba(0,0,0,.8);
+}
+
+.copyright-text {
+	font-size: 9px;
+	color: rgba(0,0,0,.6);
+	line-height: 12px;
+	margin-top: 60px;
+}
+
+.category {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 0;
+	margin-top: 20px;
+	border-radius: 8px 8px 0 0;
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+
+
+.category > .box-title {
+	text-align: center;
+	vertical-align: middle;
+	color: rgba(255,255,255,1);
+	font-weight: 600;
+	height: 60px;
+	line-height: 60px;
+/*	background: rgba(242,34,51,.9);
+*/	display: block;
+	padding: 0px;
+	font-size: 40px;
+	background: rgba(0,0,0,.7);
+	position: relative;
+	top: 200px;
+	box-shadow: 0 0 3px rgba(0,0,0,.2);
+	border-radius: 0 0 8px 8px;
+}
+
+@media (max-width: 600px) {
+	.category {
+		height: 150px;
+		margin: 2px;
+		border-radius: 8px;
+		box-shadow: 0 0 3px rgba(0,0,0,.2);
+	}
+
+	.category > .box-title {
+		font-size: 18px;
+		font-weight: 600;
+		height: 30px;
+		line-height: 14px;
+		padding: 8px;
+		background: rgba(0,0,0,.7);
+		position: relative;
+		border-radius: 0;
+		top: 120px;
+		border-radius: 0 0 8px 8px;
+	}
+}
+
+
+a.category {
+	text-decoration: none;
+}
+
+#basics-women {
+	background-image: url('../img/womens/womens-v-tee-mossimo.jpeg');
+	background-size: cover;
+}
+
+#fashion-women {
+	background-image: url('../img/womens/womens-juniors-faux-jacket.jpeg');
+	background-size: cover;
+}
+
+#leisure-women {
+	background-image: url('../img/womens/womens-urban-legging-mossimo.jpeg');
+	background-size: cover;
+}
+
+
+#basics-men {
+	background-image: url('../img/mens/mens-cargo.jpeg');
+	background-size: cover;
+}
+
+#fashion-men {
+	background-image: url('../img/mens/mens-plaid.jpeg');
+	background-size: cover;
+}
+
+#leisure-men {
+	background-image: url('../img/mens/mens-jogger-olive.jpeg');
+	background-size: cover;
+}
+
+a.grid {
+	text-decoration: none;
+}
+
+#mens-cargo {
+	background-image: url('../img/mens/mens-cargo.jpeg');
+	background-size: cover;
+}
+
+#mens-hoodie {
+	background-image: url('../img/mens/mens-gray-mossimo.jpeg');
+	background-size: cover;
+}
+
+#mens-plaid {
+	background-image: url('../img/mens/mens-plaid.jpeg');
+	background-size: cover;
+}
+
+#mens-jogger {
+	background-image: url('../img/mens/mens-jogger-olive.jpeg');
+	background-size: cover;
+}
+
+
+#womens-jacket {
+	background-image: url('../img/womens/jacket.jpg');
+	background-size: cover;
+}
+
+#womens-jogger {
+	background-image: url('../img/womens/womens-slim-jogger.jpeg');
+	background-size: cover;
+}
+
+#womens-v-tee {
+	background-image: url('../img/womens/womens-v-tee-mossimo.jpeg');
+	background-size: cover;
+}
+
+#womens-shirtail {
+	background-image: url('../img/womens/womens-woven-shirtail.jpeg');
+	background-size: cover;
+}
+
+.mens-grid {
+	max-width: 550px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+.grid {
+	background: rgba(255,255,255,1);
+	height: auto;
+	min-height: 240px;
+	width: 250px;
+	margin: 7px;
+	border-radius: 4px;
+	display: inline;
+	box-shadow: 0 0 2px rgba(0,0,0,.2);
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	padding-left: 10px;
+}
+
+.grid-description {
+	color: rgba(0,0,0,.8);
+	font-size: 18px;
+	font-weight: 300;
+	position: relative;
+	margin-top: 10px;
+}
+
+.grid-brand {
+	color: rgba(0,0,0,.6);
+	font-size: 14px;
+	position: relative;
+	top: -10px;
+	left: 0px;
+}
+
+.grid-price {
+	color: rgba(0,0,0,.6);
+	font-weight: bold;
+	position: relative;
+	bottom: 20px;
+}
+
+.grid-custom {
+	background: rgba(9,178,151,.9);
+	color: white;
+	display: inline;
+	padding: 3px 15px;
+	position: relative;
+	top: 117px;
+	left: 160px;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.row-adjustments {
+	height: 300px;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+}
+
+.adjustments-style {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.adjustments-brand {
+	margin-top: -10px;
+	font-size: 12px;
+}
+
+.row-customize {
+	height: 440px;
+	background: rgba(255,255,255,1);
+}
+
+.row-customize > ul.list {
+	margin-left: -80px;
+}
+
+.row-customize > ul > a {
+	color: rgba(0,0,0,.7);
+	margin-right: 0px;
+	font-weight: bold;
+}
+
+
+a.item > span.item-note {
+	width: 120px;
+	font-weight: normal;
+	color: rgba(0,0,0,.3);
+}
+
+a.item > span.item-note > i {
+	font-size: 22px;
+	color: rgba(0,0,0,.3);
+}
+
+.row-finish {
+	position: relative;
+	bottom: 70px;
+	margin: 0 auto;
+}
+
+
+.pay-photo {
+	width: 100%;
+	height: auto;
+	background: rgba(255,255,255,1);
+	margin: 0 10px;
+	border-radius: 4px;
+}
+
+.pay-style {
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	margin-bottom: 0px;
+	font-weight: 500;
+}
+
+.pay-brand {
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+	font-weight: 200;
+}
+
+.pay-price {
+	color: rgba(204,0,0,1);
+	font-size: 40px;
+	font-weight: 200;
+	color: lime;
+}
+
+.pay-price-description {
+	color: rgba(204,0,0,1);
+	color: rgba(255,255,255,1);
+	font-weight: 400;
+}
+
+.list-checkout > a {
+	background: rgba(0,0,0,.2);
+}
+
+.list-checkout > a > span.item-note {
+	color: rgba(255,255,255,.5);
+}
+
+.list-checkout > a > span.item-note > i {
+	color: rgba(255,255,255,.8);
+}
+
+.item {
+    border: none;
+}
+
+
+.button {
+    height: 54px;
+    border: none;
+    padding-top: 5px;
+}
+
+select {
+    width: 100%;
+}
+
+
+.bar-header {
+	outline: none;
+}
+
+.bar {
+	border-bottom: none;
+}
+
+.col-card {
+	background: rgba(255,255,255,.8);
+	border-radius: 8px;
+	padding: 15px;
+	position: relative;
+	top: 90px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,.5);
+}
+
+
+.cushion {
+	height: 40px;
+}
+
+.button-seafoam {
+	background: #6CDFC8;
+}
+
+.button-coral {
+	background: rgba(243,110,94,1);
+	color: white;
+	font-weight: 500;
+}
+
+.button-pink {
+	background: rgba(255,145,162,1);
+	color: white;
+}
+
+.button-burnt {
+	background: rgba();
+}
+
+.button-target {
+	background: rgba(204,0,0,1);
+	color: white;
+}
+
+.button-positive {
+	height: 40px;
+	padding: 3px;
+	font-weight: 300;
+	border-radius: 4px;
+}
+
+.button-custom {
+	position: absolute;
+	right: 425px;
+	top: 185px;
+	background: orange;
+	display: none;
+}
+
+.custom-container {
+	margin: 3px;
+}
+
+.custom-container .item-dark {
+	font-weight: bold;
+	color: #eee;
+}
+
+.custom-container .item-stable {
+	background: rgba(9,178,151,1);
+	color: #eee;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.big-number {
+	border: 6px solid rgba(0,0,0,.8);
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 90px;
+	line-height: 92px;
+	color: rgba(0,0,0,.8);
+	margin-bottom: 30px;
+	background: rgba(255,255,255,.6);
+/*	background: url('../img/texture-bg.png');
+*/}
+
+.helvetica-target {
+}
+
+.stylebar-content {
+/*	background: url('../img/texture-bg.png');
+	color: rgba(255,255,255,1);*/
+	background: #eee;
+	color: rgba(0,0,0,1);
+}
+
+.button-target:hover {
+	background: rgba(204,0,0,1);
+	color: white;
+}
+
+.label-white {
+	font-size: 16px;
+	margin-top: 20px;
+	color: rgba(255,255,255,.9);
+	font-family: 'Nixie One', sans-serif;
+}
+
+.input-clear {
+	background: rgba(0,0,0,.5);
+	color: rgba(255,255,255,.6);
+}
+
+
+.col-card-fit {
+	background: rgba(255,255,255,0);
+	border-radius: 8px;
+	padding: 15px;
+	position: relative;
+	top: 90px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0);
+}
+
+.text-white {
+	font-family: 'Raleway', sans-serif; text-align: center; font-weight: 100;  color: rgba(255,255,255,1);
+}
+
+.two-blocks {
+	padding: 0;
+	border-radius: 0;
+}
+
+.img-centered {
+	width: 250px;
+	height: auto;
+}
+
+.img-bg {
+	position: absolute;
+	height: auto;
+	max-width: 250px;
+	margin-left: 160px;
+}
+
+
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}

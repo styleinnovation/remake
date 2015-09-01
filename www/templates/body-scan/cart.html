@@ -1,0 +1,41 @@
+<ion-view class="enamel-bg">
+
+    <ion-content class="stylebar-content">
+
+        <div class="mens-grid">
+            <div class="row">
+                <div class="col col-50 col-offset-25">
+                    <h1 class="big-number text-center" style="font-size: 60px;"><i class="icon ion-ios-cart"></i></h1>
+                    <h1 class="text-center"><strong>Purchase</strong></h1>
+                    <p class="p-large"><a class="button-block button button-dark"><strong>CUSTOM | </strong>{{item.name}}</a></p>
+                    <p class="p-large" style="font-weight: bold;"><a class="button-block button button-dark" style="color: lime;">TOTAL PRICE | <span style="font-weight: normal;">${{item.total}}.00</span></a></p>
+                </div>
+            </div>
+            <div class="row">
+                <a href="#/app/{{item.id}}" class="col grid">    
+                    <img ng-src="{{item.image}}" class="img-bg">       
+                    <h3 class="grid-description">{{item.name}}</h3> 
+                    <p class="grid-brand">{{item.company}}</p>
+                    <p class="grid-price">${{item.price}}</p>
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col col-80 col-offset-10 text-center">
+                    <p class="p-large">Select <strong>checkout</strong> & see Target representative</p>
+                </div>
+            </div>
+
+    
+           <div class="custom-container">
+                <div class="row">
+                    <div class="col col-50 col-offset-25"> 
+                        <a href="#/app/{{item.id}}/thankyou" class="button button-block button-stable">CHECKOUT</a>
+                    </div>
+                </div>
+           </div>
+            
+        </div>
+          
+    </ion-content>
+</ion-view>

@@ -1,0 +1,24 @@
+<ion-view class="enamel-bg">
+
+    <!--<a ng-click="toggleLeftSideMenu()"></a>-->
+
+    <ion-content class="stylebar-content">
+
+        <div class="row">
+            <div class="col col-top text-center">
+                <h1 class="big-number">3</h1>
+                <p class="p-large">CHOOSE AN ITEM</p>
+            </div>
+        </div>
+
+        <div class="row cushion"></div>
+
+        <div class="womens-grid">
+            <div class="" ng-repeat="item in items">
+                <h1 ng-show="{{item.gender == 'female'}} && {{item.type == 'top'}}">{{item.name}}</h1>
+            </div>
+        </div>
+          
+
+    </ion-content>
+</ion-view>
